@@ -86,7 +86,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /*-------Base Header - Footer Styles-------*/
+
 header,
 footer {
   display: flex;
@@ -95,31 +101,60 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0x;
+}
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
+ .header-divider {
+  margin: 10px 0 20px 0;
+  width:100%;
+  height: 1px;
+}
 header nav {
+  width: 60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
 }
+
 header nav ul {
-  list-style: none;
   display:flex;
   justify-content: space-around;
-
+  width: 100%;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+footer {
+  flex-direction: column;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin:50px 0;
+}
+/*
+footer h4 {
+  margin: 20px 0;
+}
+*/
+footer p {
+  margin:0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin:50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -134,25 +169,61 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .copyright {
+  margin: 20px 0;
+}
+
 /*------- Mobile Styles - Homepage -------*/
+
 /*Hero Area */
+
 .hero-area {
   display:flex;
   justify-content: center;
   flex-flow: row wrap;
 }
+
 /* Aside */
+
 aside {
   display:flex;
   justify-content: center;
   align-items:center;
   flex-flow: row wrap;
 }
+
+/***
+aside h3{
+  margin: 20px 0;
+}
+
+aside p {
+  margin-bottom: 30px;
+}
+input .text {
+  padding: 1em 0;
+  margin-bottom: 20px;
+}
+
+input .button {
+  padding: 20px 0;
+  margin-top: 20px;
+}
+***/
 /* Features */
 .features {
   display:flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 60%;
+  margin: 30px 0;
 }
 
 .features .features-items {
@@ -162,11 +233,24 @@ aside {
   flex-flow: row wrap;
 }
 
+.features p {
+  margin: 0;
+}
 /* Reviews */
+
 .review {
   display:flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.review h2 {
+  margin-bottom: 40px;
+}
+
+.review h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 /*==================================================================================
 About Page
@@ -184,6 +268,10 @@ About Page
   align-items:center;
   flex-flow:row wrap;
 }
+
+.contact-content p {
+  margin: 0;
+}
 /*==================================================================================
 FAQ Page
 ==================================================================================*/
@@ -195,10 +283,18 @@ FAQ Page
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
+}
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq .question {
+  margin-bottom: 50px;
 }
 /* ==========================================================================
    Helper classes
