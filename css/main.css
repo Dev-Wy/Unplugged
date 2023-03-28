@@ -86,7 +86,82 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* General Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul, 
+ol {
+  font-size: 1.125em; 
+  font-weight: bold;
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 2.25em;
+  line-height: 2.6875em;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285em;
+}
+
+.reviews h2 {
+  line-height: 30px;
+}
+
+.faq h2 {
+  line-height: 30px;
+}
+
+.faq-content h4 {
+  line-height: 24px;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+ font-style: normal;
+}
+
 .content-wrapper {
+
+}
+
+
+   .content-wrapper {
   width: 90%;
   margin: 50px 0;
   border: 3px dotted #999;
@@ -394,6 +469,36 @@ FAQ Page
 /*Tablet styles here*/
 
 /* General styles */
+h1 {
+  font-size: 3em;
+  line-height: 48px;
+}
+
+h2 {
+  line-height: 48px;
+  font-size: 1.875em;
+}
+
+h3 {
+  line-height: 30px;
+  font-size: 1.5em;
+}
+
+
+footer h4,
+.contact h4 {
+  font-size: 1.5em;
+}
+
+footer p {
+  line-height: 18px;
+}
+
+.faq h4,
+.faq p {
+  font-size: .875em;
+  line-height: 15.75px;
+}
 
 .content-wrapper {
   width: 640px;
@@ -550,6 +655,40 @@ header {
 /*Desktop styles here*/
 
 /* General styles */
+h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+.faq h2,
+.about h2,
+.mission h2 {
+  font-size: 3em;
+}
+
+h3,
+h4 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 24px;
+}
+
+.faq h4,
+p {
+  font-size: 1.125px;
+  line-height: 18px;
+}
+
+.faq h4 {
+  line-height: 24px;
+}
+
 
 .content-wrapper {
   max-width: 960px;
