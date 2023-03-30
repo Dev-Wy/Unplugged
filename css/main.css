@@ -144,15 +144,15 @@ p {
 
 .faq-content h4 {
   line-height: 24px;
-}
+}*/
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
-}*/
+  margin:0%;
+}
 
 address {
  font-style: normal;
@@ -185,6 +185,13 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
 }
+ header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+ }
 
  .header-divider {
   margin: 10px 0 20px 0;
@@ -193,8 +200,9 @@ header .content-wrapper {
   background-color: #3a3a3a;
 }
 header nav { 
+  border: 3px dotted red;
   display: flex;
-  justify-content: space-around;
+  justify-content:flex-start;
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
@@ -204,12 +212,14 @@ header nav {
 }
 
 header nav ul {
+  border: 3px dotted red;
   display:flex;
   justify-content: space-around;
   width: 100%;
 }
 
 header nav ul li {
+  border: 3px dotted red;
   font-size: 1.125em;
 }
 
@@ -253,6 +263,9 @@ footer .copyright {
 /*Hero Area */
 
 .hero-area {
+  background: url('img/unplugged-retreat.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display:flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -305,6 +318,8 @@ input [type=button] {
 /* Features */
 
 .features {
+  background: url('unplugged-retreat-features.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
