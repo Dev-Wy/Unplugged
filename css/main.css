@@ -200,7 +200,7 @@ header .content-wrapper {
   background-color: #3a3a3a;
 }
 header nav { 
-  border: 3px dotted red;
+  border: 3px dotted purple;
   display: flex;
   justify-content:flex-start;
   align-items: center;
@@ -212,14 +212,14 @@ header nav {
 }
 
 header nav ul {
-  border: 3px dotted red;
+  border: 3px dotted burlywood;
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
 header nav ul li {
-  border: 3px dotted red;
+  border: 5px dotted teal;
   font-size: 1.125em;
 }
 
@@ -263,7 +263,7 @@ footer .copyright {
 /*Hero Area */
 
 .hero-area {
-  background: url('img/unplugged-retreat.jpg') center no-repeat #333;
+  background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
   background-size: cover;
   min-height: 500px;
   display:flex;
@@ -318,7 +318,7 @@ input [type=button] {
 /* Features */
 
 .features {
-  background: url('unplugged-retreat-features.jpg') center no-repeat #333;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -339,6 +339,7 @@ input [type=button] {
   justify-content: center;
   align-items:center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .features p {
