@@ -943,6 +943,7 @@ footer .social-icons {
   justify-content: center;
   padding-bottom: 75px;
 }
+
 .contact-content h4 {
   font-size: 1.875em;
 }
@@ -950,9 +951,9 @@ footer .social-icons {
 .contact-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-flow: row wrap;
   width: 80%;
+  max-width: 960px;
 }
 .content-wrapper {
   margin: 100px 0 0 0;
