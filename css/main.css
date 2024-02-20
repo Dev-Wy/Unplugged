@@ -454,9 +454,9 @@ FAQ Page
    Helper classes
    ========================================================================== */
 
-/*
- * Hide visually and from screen readers
+/* Hide visually and from screen readers
  */
+ 
 
 .hidden,
 [hidden] {
@@ -820,6 +820,7 @@ p {
 }
 
 /*Hero*/
+
 .hero-area h1 {
   font-size: 3.75em;
   width: 100%;
@@ -840,8 +841,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {        
-  width: 30%;        
- /* margin: 0 10%; */ 
+  width: 30%;       
 }
 
 aside .form {
@@ -851,6 +851,7 @@ aside .form {
 .form-description p {
    font-size: 1.125em;
 }
+
 /* Features*/
 
 .features h2 {
@@ -863,6 +864,7 @@ aside .form {
 }
 
 /* Reviews */
+
 .reviews h2 {
   padding-bottom: 50px;
 }
@@ -870,6 +872,7 @@ aside .form {
 .reviews h3 {
   width: 80%;
 }
+
 .reviews article {
   display: flex;
   justify-content: space-between;
@@ -882,7 +885,8 @@ aside .form {
   width: 45.5%;
 }
 
-/***Footer***/
+/*Footer*/
+
 footer h4 {
   font-size: 1.875em;
 }
@@ -958,7 +962,9 @@ footer .social-icons {
 .content-wrapper {
   margin: 100px 0 0 0;
 }
+
 /**** Desktop FAQ Page ****/
+
 .faq .content-wrapper {
   display: flex;
   justify-content: space-between;
