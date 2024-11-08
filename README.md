@@ -45,6 +45,7 @@
 ## Author
 - Jake Wyant
 - Portfolio: https://dev-wy.github.io/Portfolio/
+- LinkedIn: https://www.linkedin.com/in/jakewyantdeveloper/
 
 ## Acknowledgments
 - W3C for their resources. 
